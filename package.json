@@ -1,5 +1,5 @@
 {
-  "name": "youtube-music-player",
+  "name": "youtube-cli-music-player",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Helloyunho",
@@ -21,6 +21,9 @@
     "ytpl": "^0.1.14"
   },
   "bin": {
-    "ymp": "./index.js"
+    "ycmp": "./index.js"
+  },
+  "repository": {
+    "git": "https://github.com/Helloyunho/youtube-cli-music-player"
   }
 }

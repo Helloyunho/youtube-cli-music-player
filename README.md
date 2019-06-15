@@ -1,4 +1,4 @@
-# youtube-music-player
+# youtube-cli-music-player
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -17,13 +17,13 @@
 Note: you need to install libao for node-libao
 
 ```
-npm install --global youtube-music-player
+npm install --global youtube-cli-music-player
 ```
 
 ## Usage
 
 ```
-ymp [--loop] [--shuffle] videos
+ycmp [--loop] [--shuffle] videos
 
 --loop: loops the playlist
 --shuffle: shuffles the playlist
