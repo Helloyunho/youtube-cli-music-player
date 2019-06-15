@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const ytdl = require('ytdl-core')
 const Libao = require('libao')
 const signale = require('signale')
@@ -204,7 +205,7 @@ const run = () => {
   play()
 }
 
-const args = process.argv.slice(2, process.argv.length)
+const args = process.argv.slice(1, process.argv.length)
 let done = 0
 args.forEach(async arg => {
   const parsed = url.parse(arg)

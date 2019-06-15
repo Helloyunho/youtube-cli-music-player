@@ -23,7 +23,7 @@ npm install --global youtube-music-player
 ## Usage
 
 ```
-youtube-music-player [--loop] [--shuffle] videos
+ymp [--loop] [--shuffle] videos
 
 --loop: loops the playlist
 --shuffle: shuffles the playlist
